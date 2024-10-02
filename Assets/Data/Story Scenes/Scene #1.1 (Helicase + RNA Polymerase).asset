@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27433c50e425bc24a9868b9a4dc43ab9, type: 3}
+  m_Name: Scene #1.1 (Helicase + RNA Polymerase)
+  m_EditorClassIdentifier: 
+  sentences:
+  - speaker: {fileID: 11400000, guid: 712ccd152c163b44baf2260e6720f74c, type: 2}
+    text: "*I\u2019m always the one doing the grunt work unwinding the DNA.*"
+    actions:
+    - speaker: {fileID: 11400000, guid: 712ccd152c163b44baf2260e6720f74c, type: 2}
+      spriteIndex: 0
+      coords: {x: -300, y: -80}
+      moveSpeed: 0
+      actionType: 1
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 1
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+    text: Hurry up helicase!
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 712ccd152c163b44baf2260e6720f74c, type: 2}
+    text: '*My job is so boring. All I do is break hydrogen bonds between the complementary
+      bases.*'
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 1
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+    text: Finally! What took you so long?
+    actions:
+    - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+      spriteIndex: 0
+      coords: {x: 250, y: -80}
+      moveSpeed: 0
+      actionType: 1
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 712ccd152c163b44baf2260e6720f74c, type: 2}
+    text: MY JOB ISN'T EASY!
+    actions:
+    - speaker: {fileID: 11400000, guid: 712ccd152c163b44baf2260e6720f74c, type: 2}
+      spriteIndex: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+    text: "I mean, I guess your job isn\u2019t that fun, but it\u2019s not like ours
+      is either!"
+    actions:
+    - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+      spriteIndex: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 712ccd152c163b44baf2260e6720f74c, type: 2}
+    text: I'm leaving.
+    actions:
+    - speaker: {fileID: 11400000, guid: 712ccd152c163b44baf2260e6720f74c, type: 2}
+      spriteIndex: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 3
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+    text: '*Ugh whatever.*'
+    actions:
+    - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+      spriteIndex: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 1
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+    text: '*I have to go find the 5` end of the template strand and search for an
+      Adenosine.*'
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 1
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+    text: '*I go to the 5` end of the template strand and find a Guanine.*'
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 1
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+    text: "I must find a Cytosine then! Luckily, there\u2019s many nucleotides just
+      floating around."
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+    text: '*I grab a Cytosine and attach it to the Guanine.*'
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 1
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+    text: First step done. Only 302 more to go!
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+    text: '*I must keep in mind that Adenosine binds to Uracil, and not Thymine because
+      I am dealing with RNA, not DNA*'
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 1
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+    text: "Finally. That took wayyy too long. It\u2019s now time for the RNA to be
+      sent for some processing."
+    actions:
+    - speaker: {fileID: 11400000, guid: 6a8d2d8daa099324b8c4d860fd227e5e, type: 2}
+      spriteIndex: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 3
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 2
+  background: {fileID: 21300000, guid: dab1b18cc0af59a4fa458fde17ae953b, type: 3}
+  nextScene: {fileID: 11400000, guid: 7aeb55de1c7ec6f4a9d72bfc53af95a0, type: 2}
+  perspective: 1

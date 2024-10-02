@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27433c50e425bc24a9868b9a4dc43ab9, type: 3}
+  m_Name: Prologue #1
+  m_EditorClassIdentifier: 
+  sentences:
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Welcome to Kyoto Biology Museum. Which area would you like to explore first?
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 0
+      coords: {x: -200, y: -80}
+      moveSpeed: 0
+      actionType: 1
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: I want to learn about protein synthesis.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: "Great choice! Let\u2019s explore the process of protein synthesis."
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  background: {fileID: 21300000, guid: 1bc30a4313a7cb541a8cc9251ed65f6e, type: 3}
+  nextScene: {fileID: 11400000, guid: b1ba1feec1088444887665f2fbbec1d2, type: 2}
+  perspective: 0

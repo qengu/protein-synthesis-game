@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27433c50e425bc24a9868b9a4dc43ab9, type: 3}
+  m_Name: Scene #2 (RNA processing, Cap, Poly-A tail)
+  m_EditorClassIdentifier: 
+  sentences:
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: The end product produced is pre-RNA. This means that there are sections
+      called introns and exons. Exons are sections that code for protein, meanwhile
+      introns are the non-coding sections.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 2
+      coords: {x: 150, y: -85}
+      moveSpeed: 0
+      actionType: 1
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: The first stage of processing is splicing. During this stage, the introns
+      are cut out and the exons are then joined together.
+    actions: []
+    animation: 1
+    animationTime: 0.5
+    displayImages:
+    - {fileID: 21300000, guid: fa6eb74277c8e5243bac199606f1b38d, type: 3}
+    - {fileID: 21300000, guid: 3b5613c4dcaf39541833ee4b2f6be417, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Next, modified Guanine nucleotides are added to the 5` end, which is called
+      a cap. A chain of 50-250 Adenosine nucleotides are added to the 3` end. This
+      is  called a poly-A tail.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 1
+    animationTime: 0.5
+    displayImages:
+    - {fileID: 21300000, guid: fa6eb74277c8e5243bac199606f1b38d, type: 3}
+    - {fileID: 21300000, guid: 24a71dd992ccb25489306d907b6bfc0f, type: 3}
+    - {fileID: 21300000, guid: 2de84e7b67f0a614f9e6b911d8f131de, type: 3}
+    - {fileID: 21300000, guid: 67e80a351b7b4b3478fc642df2929b27, type: 3}
+    - {fileID: 21300000, guid: 8193c03882b0ef64da93a833e26d13f7, type: 3}
+    - {fileID: 21300000, guid: 3b5613c4dcaf39541833ee4b2f6be417, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: And there you have it, mature mRNA!
+    actions: []
+    animation: 1
+    animationTime: 0.5
+    displayImages:
+    - {fileID: 21300000, guid: fa6eb74277c8e5243bac199606f1b38d, type: 3}
+    - {fileID: 21300000, guid: 24a71dd992ccb25489306d907b6bfc0f, type: 3}
+    - {fileID: 21300000, guid: 2de84e7b67f0a614f9e6b911d8f131de, type: 3}
+    - {fileID: 21300000, guid: 67e80a351b7b4b3478fc642df2929b27, type: 3}
+    - {fileID: 21300000, guid: 8193c03882b0ef64da93a833e26d13f7, type: 3}
+    - {fileID: 21300000, guid: 3b5613c4dcaf39541833ee4b2f6be417, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: "I get that we need to cut out introns because they\u2019re not going to
+      be coded for the protein, but why add a cap and poly-A tail?"
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: The 5` cap is there to protect the mRNA from degradation. It also helps
+      the ribosome to bind to the mRNA to start the translation process.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: The 3` poly-A tail also protects the mRNA from degradation.
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: "I think I understand everything now. What\u2019s next?"
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: The next stage is translation, where the mRNA is read and translated into
+      protein. Follow me to the next exhibit.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 3
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  background: {fileID: 21300000, guid: b914f2c3b6bc2194ea24bbab1ca7499a, type: 3}
+  nextScene: {fileID: 11400000, guid: c665e8a6551e88f41be8a6e44bcbb109, type: 2}
+  perspective: 0

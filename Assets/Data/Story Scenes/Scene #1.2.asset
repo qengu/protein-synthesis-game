@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27433c50e425bc24a9868b9a4dc43ab9, type: 3}
+  m_Name: Scene #1.2
+  m_EditorClassIdentifier: 
+  sentences:
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: "And that\u2019s how transcription works. To summarize, an enzyme called
+      Helicase unwinds a section of DNA. Then, RNA Polymerase finds complementary
+      bases. These complementary bases are the same as DNA."
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 0
+      coords: {x: -80, y: -80}
+      moveSpeed: 0
+      actionType: 1
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Except Thymine is replaced with Uracil. At the end, a new piece of RNA
+      is created which then needs to be sent to processing.
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: What does processing mean?
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: "Well, that\u2019s what I\u2019m going to talk about next. Follow me."
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 3
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  background: {fileID: 21300000, guid: 43d7434469da95048a2c50e84f8abdac, type: 3}
+  nextScene: {fileID: 11400000, guid: 92ed58da806e7f3449f5e14e5e9d59fc, type: 2}
+  perspective: 0

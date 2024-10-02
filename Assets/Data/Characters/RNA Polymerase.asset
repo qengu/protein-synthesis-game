@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accfe818136cabb48b8d5fe90addc331, type: 3}
+  m_Name: RNA Polymerase
+  m_EditorClassIdentifier: 
+  speakerName: RNA Polymerase
+  textColor: {r: 0.1791364, g: 0, b: 0.3207547, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: c83a01c7682092946a3d32972e19891c, type: 3}
+  - {fileID: 21300000, guid: 62a2b5f9e0ab6674dbd5501babf3383c, type: 3}
+  - {fileID: 21300000, guid: 9da5fb76368c8f649b5b806f004e8392, type: 3}
+  - {fileID: 21300000, guid: 2d1d9c8c02a5538428c975afdca19367, type: 3}
+  - {fileID: 21300000, guid: 6f805ce71a62ea2439728cfc22739dc5, type: 3}
+  prefab: {fileID: 1882135058061563800, guid: 3e5812e1cd30b1f4e8349c168e0fae63, type: 3}

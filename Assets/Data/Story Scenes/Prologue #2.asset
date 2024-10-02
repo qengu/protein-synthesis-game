@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27433c50e425bc24a9868b9a4dc43ab9, type: 3}
+  m_Name: Prologue #2
+  m_EditorClassIdentifier: 
+  sentences:
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: The process of protein synthesis is split into two parts, Transcription
+      and Translation. We will first explore transcription.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: 'What happens during transcription? '
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Well, before we get started, we must first familiarize ourselves with the
+      structure of DNA.
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: What are these pentagon and circle shapes on the diagram?
+    actions: []
+    animation: 1
+    animationTime: 0.5
+    displayImages:
+    - {fileID: 21300000, guid: fbe8a65d2f0ba81449987785273fb2fc, type: 3}
+    - {fileID: 21300000, guid: f69e3f4f33eefd645ab8acd72f7596db, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: "The pentagon is called deoxyribose, a 5-carbon sugar, meaning there are
+      five carbons in the sugar. The molecular structure looks like this\u2026"
+    actions: []
+    animation: 1
+    animationTime: 0.5
+    displayImages:
+    - {fileID: 21300000, guid: 4a51041b459d3c446a9b1ac478b5990f, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: "\u2026and the circle is a phosphate group. The sugar and phosphate group
+      make up a part of the DNA called the Sugar-phosphate backbone."
+    actions: []
+    animation: 1
+    animationTime: 0.5
+    displayImages:
+    - {fileID: 21300000, guid: 4a51041b459d3c446a9b1ac478b5990f, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Next, notice how connected to the sugar is a weird shape with a letter
+      in the middle. These are called nitrogenous bases because they contain nitrogen.
+    actions: []
+    animation: 1
+    animationTime: 0.5
+    displayImages:
+    - {fileID: 21300000, guid: fbe8a65d2f0ba81449987785273fb2fc, type: 3}
+    - {fileID: 21300000, guid: f69e3f4f33eefd645ab8acd72f7596db, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: There are 4 nitrogenous bases in DNA. A, T, C, and G, representing Adenosine,
+      Thymine, Cytosine, and Guanine, respectively.
+    actions: []
+    animation: 1
+    animationTime: 0.5
+    displayImages:
+    - {fileID: 21300000, guid: fbe8a65d2f0ba81449987785273fb2fc, type: 3}
+    - {fileID: 21300000, guid: f69e3f4f33eefd645ab8acd72f7596db, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: In DNA, A always binds to T, and C always binds to G.
+    actions: []
+    animation: 1
+    animationTime: 0.5
+    displayImages:
+    - {fileID: 21300000, guid: fbe8a65d2f0ba81449987785273fb2fc, type: 3}
+    - {fileID: 21300000, guid: f69e3f4f33eefd645ab8acd72f7596db, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: Why do some nucleotides have one hexagon but others have 2?
+    actions: []
+    animation: 1
+    animationTime: 0.9
+    displayImages:
+    - {fileID: 21300000, guid: 0ac9cd71ea5d4e04aba0419dec3bc0f1, type: 3}
+    - {fileID: 21300000, guid: d9dca1055481cc24a97b011747cf9a40, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: There are two classifications of nitrogenous bases, purines and pyrimidines.
+      Pyrimidines are represented with one hexagon because of how its molecular structure
+      looks.
+    actions: []
+    animation: 1
+    animationTime: 0.9
+    displayImages:
+    - {fileID: 21300000, guid: 0ac9cd71ea5d4e04aba0419dec3bc0f1, type: 3}
+    - {fileID: 21300000, guid: d9dca1055481cc24a97b011747cf9a40, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: On the other hand, purines are represented with two because they consist
+      of a pyrimidine ring fused with an imidazole ring.
+    actions: []
+    animation: 1
+    animationTime: 0.9
+    displayImages:
+    - {fileID: 21300000, guid: 0ac9cd71ea5d4e04aba0419dec3bc0f1, type: 3}
+    - {fileID: 21300000, guid: d9dca1055481cc24a97b011747cf9a40, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: "Okay, I understand all of that, but there\u2019s one thing I don\u2019t
+      get. Earlier you mentioned that A always connects to T, and C always connects
+      to G. How do these \u201Cconnections\u201D happen."
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Two connected nucleotides is called a base pair. They are connected together
+      by hydrogen bonds.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Hydrogen bonds are weak bonds that form when a hydrogen atom is connected
+      to an electronegative atom. In this case, that would be Nitrogen and Oxygen.
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: In DNA, when A connects to T, there are two hydrogen bonds, and when C
+      connects to G, there are three hydrogen bonds.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: "Wow! That\u2019s a lot of information, but I think I understand it. Can
+      we get started on the process of protein synthesis?"
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  background: {fileID: 21300000, guid: ca05019642782764d859d3b9beb83892, type: 3}
+  nextScene: {fileID: 11400000, guid: 1afe6a73ee6b4c84e9476f0a782031b1, type: 2}
+  perspective: 0

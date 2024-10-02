@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27433c50e425bc24a9868b9a4dc43ab9, type: 3}
+  m_Name: Scene #3 (Genetic code)
+  m_EditorClassIdentifier: 
+  sentences:
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: "Woah! What is this chart of random letters? There\u2019s also a wheel
+      that has similar letters next to it."
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 1
+      coords: {x: 0, y: -85}
+      moveSpeed: 0
+      actionType: 1
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Oh yes! I almost forgot about this. This chart is essential to knowing
+      the outcome of the protein produced by mRNA.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: This chart indicates what set of nucleotides code for which amino acid.
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: Slow down for a second. What are amino acids and why are they in pairs
+      of 3?
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 1
+    animationTime: 2
+    displayImages:
+    - {fileID: 21300000, guid: 902a7554654a76d44b15dc78c7c33277, type: 3}
+    - {fileID: 21300000, guid: 793eddfe0f8e6be4f8b9954410495c4d, type: 3}
+    - {fileID: 21300000, guid: 88c9fba0992f4cd49bb32458063df880, type: 3}
+    - {fileID: 21300000, guid: 50245a0a6dca4b94a89cca1f951edc16, type: 3}
+    - {fileID: 21300000, guid: 3297afa96369fa54494cf0f8efe83c04, type: 3}
+    - {fileID: 21300000, guid: c12f6f3ae4ab58348a72b56c93321239, type: 3}
+    - {fileID: 21300000, guid: bef1b48c848d4eb439b6b2545e8cbe69, type: 3}
+    - {fileID: 21300000, guid: 04c94f8878e95f2408935f980b2fff0f, type: 3}
+    - {fileID: 21300000, guid: bffdcb95c9aa7e644a200faebcda9c51, type: 3}
+    - {fileID: 21300000, guid: 3d11b8be97df14f4c913ac7c3da0f034, type: 3}
+    - {fileID: 21300000, guid: 53f78ba5401a3ff49b2f7aefeb9c5cd5, type: 3}
+    - {fileID: 21300000, guid: 83665c6cd9b45a946852c53a3562268f, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: "To address your first question, amino acids are the basic building blocks
+      of protein. It\u2019s like a lego structure. The lego structure is made up
+      of individual lego pieces, where the individual lego pieces act as building
+      blocks."
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 1
+    animationTime: 2
+    displayImages:
+    - {fileID: 21300000, guid: 902a7554654a76d44b15dc78c7c33277, type: 3}
+    - {fileID: 21300000, guid: 793eddfe0f8e6be4f8b9954410495c4d, type: 3}
+    - {fileID: 21300000, guid: 88c9fba0992f4cd49bb32458063df880, type: 3}
+    - {fileID: 21300000, guid: 50245a0a6dca4b94a89cca1f951edc16, type: 3}
+    - {fileID: 21300000, guid: 3297afa96369fa54494cf0f8efe83c04, type: 3}
+    - {fileID: 21300000, guid: c12f6f3ae4ab58348a72b56c93321239, type: 3}
+    - {fileID: 21300000, guid: bef1b48c848d4eb439b6b2545e8cbe69, type: 3}
+    - {fileID: 21300000, guid: 04c94f8878e95f2408935f980b2fff0f, type: 3}
+    - {fileID: 21300000, guid: bffdcb95c9aa7e644a200faebcda9c51, type: 3}
+    - {fileID: 21300000, guid: 3d11b8be97df14f4c913ac7c3da0f034, type: 3}
+    - {fileID: 21300000, guid: 53f78ba5401a3ff49b2f7aefeb9c5cd5, type: 3}
+    - {fileID: 21300000, guid: 83665c6cd9b45a946852c53a3562268f, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Similar to how the building block for protein are amino acids. There are
+      also different types of lego pieces, similar to how there are 20 different
+      types of amino acids.
+    actions: []
+    animation: 1
+    animationTime: 2
+    displayImages:
+    - {fileID: 21300000, guid: 902a7554654a76d44b15dc78c7c33277, type: 3}
+    - {fileID: 21300000, guid: 793eddfe0f8e6be4f8b9954410495c4d, type: 3}
+    - {fileID: 21300000, guid: 88c9fba0992f4cd49bb32458063df880, type: 3}
+    - {fileID: 21300000, guid: 50245a0a6dca4b94a89cca1f951edc16, type: 3}
+    - {fileID: 21300000, guid: 3297afa96369fa54494cf0f8efe83c04, type: 3}
+    - {fileID: 21300000, guid: c12f6f3ae4ab58348a72b56c93321239, type: 3}
+    - {fileID: 21300000, guid: bef1b48c848d4eb439b6b2545e8cbe69, type: 3}
+    - {fileID: 21300000, guid: 04c94f8878e95f2408935f980b2fff0f, type: 3}
+    - {fileID: 21300000, guid: bffdcb95c9aa7e644a200faebcda9c51, type: 3}
+    - {fileID: 21300000, guid: 3d11b8be97df14f4c913ac7c3da0f034, type: 3}
+    - {fileID: 21300000, guid: 53f78ba5401a3ff49b2f7aefeb9c5cd5, type: 3}
+    - {fileID: 21300000, guid: 83665c6cd9b45a946852c53a3562268f, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: This also answers your question as to why the three nucleotides codes for
+      one amino acid, which is called a triplet code. For reference in the future,
+      a codon refers to three consecutive nucleotides.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 1
+    animationTime: 2
+    displayImages:
+    - {fileID: 21300000, guid: 902a7554654a76d44b15dc78c7c33277, type: 3}
+    - {fileID: 21300000, guid: 793eddfe0f8e6be4f8b9954410495c4d, type: 3}
+    - {fileID: 21300000, guid: 88c9fba0992f4cd49bb32458063df880, type: 3}
+    - {fileID: 21300000, guid: 50245a0a6dca4b94a89cca1f951edc16, type: 3}
+    - {fileID: 21300000, guid: 3297afa96369fa54494cf0f8efe83c04, type: 3}
+    - {fileID: 21300000, guid: c12f6f3ae4ab58348a72b56c93321239, type: 3}
+    - {fileID: 21300000, guid: bef1b48c848d4eb439b6b2545e8cbe69, type: 3}
+    - {fileID: 21300000, guid: 04c94f8878e95f2408935f980b2fff0f, type: 3}
+    - {fileID: 21300000, guid: bffdcb95c9aa7e644a200faebcda9c51, type: 3}
+    - {fileID: 21300000, guid: 3d11b8be97df14f4c913ac7c3da0f034, type: 3}
+    - {fileID: 21300000, guid: 53f78ba5401a3ff49b2f7aefeb9c5cd5, type: 3}
+    - {fileID: 21300000, guid: 83665c6cd9b45a946852c53a3562268f, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Since there are 20 amino acids, that means we need at least 20 different
+      nucleotide combinations.
+    actions: []
+    animation: 1
+    animationTime: 2
+    displayImages:
+    - {fileID: 21300000, guid: 902a7554654a76d44b15dc78c7c33277, type: 3}
+    - {fileID: 21300000, guid: 793eddfe0f8e6be4f8b9954410495c4d, type: 3}
+    - {fileID: 21300000, guid: 88c9fba0992f4cd49bb32458063df880, type: 3}
+    - {fileID: 21300000, guid: 50245a0a6dca4b94a89cca1f951edc16, type: 3}
+    - {fileID: 21300000, guid: 3297afa96369fa54494cf0f8efe83c04, type: 3}
+    - {fileID: 21300000, guid: c12f6f3ae4ab58348a72b56c93321239, type: 3}
+    - {fileID: 21300000, guid: bef1b48c848d4eb439b6b2545e8cbe69, type: 3}
+    - {fileID: 21300000, guid: 04c94f8878e95f2408935f980b2fff0f, type: 3}
+    - {fileID: 21300000, guid: bffdcb95c9aa7e644a200faebcda9c51, type: 3}
+    - {fileID: 21300000, guid: 3d11b8be97df14f4c913ac7c3da0f034, type: 3}
+    - {fileID: 21300000, guid: 53f78ba5401a3ff49b2f7aefeb9c5cd5, type: 3}
+    - {fileID: 21300000, guid: 83665c6cd9b45a946852c53a3562268f, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: "There are 4 nucleotides, meaning if we use only one nucleotide per amino
+      acid, we\u2019ll only have 4 different ways to arrange the nucleotides."
+    actions: []
+    animation: 1
+    animationTime: 2
+    displayImages:
+    - {fileID: 21300000, guid: 902a7554654a76d44b15dc78c7c33277, type: 3}
+    - {fileID: 21300000, guid: 793eddfe0f8e6be4f8b9954410495c4d, type: 3}
+    - {fileID: 21300000, guid: 88c9fba0992f4cd49bb32458063df880, type: 3}
+    - {fileID: 21300000, guid: 50245a0a6dca4b94a89cca1f951edc16, type: 3}
+    - {fileID: 21300000, guid: 3297afa96369fa54494cf0f8efe83c04, type: 3}
+    - {fileID: 21300000, guid: c12f6f3ae4ab58348a72b56c93321239, type: 3}
+    - {fileID: 21300000, guid: bef1b48c848d4eb439b6b2545e8cbe69, type: 3}
+    - {fileID: 21300000, guid: 04c94f8878e95f2408935f980b2fff0f, type: 3}
+    - {fileID: 21300000, guid: bffdcb95c9aa7e644a200faebcda9c51, type: 3}
+    - {fileID: 21300000, guid: 3d11b8be97df14f4c913ac7c3da0f034, type: 3}
+    - {fileID: 21300000, guid: 53f78ba5401a3ff49b2f7aefeb9c5cd5, type: 3}
+    - {fileID: 21300000, guid: 83665c6cd9b45a946852c53a3562268f, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: If we use two, there will only be 16. But if we use three, then we will
+      have 64 ways to arrange the nucleotides. Since we have so many, a type of amino
+      acid can be coded with many different arrangements of nucleotides.
+    actions: []
+    animation: 1
+    animationTime: 2
+    displayImages:
+    - {fileID: 21300000, guid: 902a7554654a76d44b15dc78c7c33277, type: 3}
+    - {fileID: 21300000, guid: 793eddfe0f8e6be4f8b9954410495c4d, type: 3}
+    - {fileID: 21300000, guid: 88c9fba0992f4cd49bb32458063df880, type: 3}
+    - {fileID: 21300000, guid: 50245a0a6dca4b94a89cca1f951edc16, type: 3}
+    - {fileID: 21300000, guid: 3297afa96369fa54494cf0f8efe83c04, type: 3}
+    - {fileID: 21300000, guid: c12f6f3ae4ab58348a72b56c93321239, type: 3}
+    - {fileID: 21300000, guid: bef1b48c848d4eb439b6b2545e8cbe69, type: 3}
+    - {fileID: 21300000, guid: 04c94f8878e95f2408935f980b2fff0f, type: 3}
+    - {fileID: 21300000, guid: bffdcb95c9aa7e644a200faebcda9c51, type: 3}
+    - {fileID: 21300000, guid: 3d11b8be97df14f4c913ac7c3da0f034, type: 3}
+    - {fileID: 21300000, guid: 53f78ba5401a3ff49b2f7aefeb9c5cd5, type: 3}
+    - {fileID: 21300000, guid: 83665c6cd9b45a946852c53a3562268f, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: However, an arrangement of nucleotides can only code for one type of amino
+      acid.
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: "That\u2019s pretty cool. But, what does \u201Cstart\u201D and \u201Cend\u201D
+      mean?"
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: The start and end codons are, well, used to indicate when to start the
+      translation process and when to stop the process. I will go into this process
+      more later, but that is the general idea.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Observe and note how the start codon also codes for the amino acid, Methionine.
+      But the stop codon does not code for any amino acid.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: "Anyways, let\u2019s continue our walk to our next destination."
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 3
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  background: {fileID: 21300000, guid: 965a19d407f92fb418848d173e6b76af, type: 3}
+  nextScene: {fileID: 11400000, guid: 0f1e041aa7e262b4d80733bbd93a63b0, type: 2}
+  perspective: 0

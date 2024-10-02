@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27433c50e425bc24a9868b9a4dc43ab9, type: 3}
+  m_Name: Scene #4.2
+  m_EditorClassIdentifier: 
+  sentences:
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: Just a quick question, but what are ribosomes made of?
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 0
+      coords: {x: -150, y: -85}
+      moveSpeed: 0
+      actionType: 1
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 1
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Ribosomes are made of rRNA and protein. rRNA are non-coding strands of
+      RNA that is made in a special place inside the nucleus called the nucleolus.
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 15ad47fe8fb8dd04b9366db437438378, type: 2}
+    text: Wow that's cool! Could you also go over how the sites work more in depth?
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: The tRNA initially starts off at the P site, also called initiation. Then,
+      another tRNA slides into the A site. A polypeptide bond forms between the amino
+      acids, which sticks out at the top of the tRNA.
+    actions: []
+    animation: 1
+    animationTime: 0.8
+    displayImages:
+    - {fileID: 21300000, guid: 93a8f529d4b688d41b1f725e25597570, type: 3}
+    - {fileID: 21300000, guid: 0f344d236bb153643b9b2b0822fc8d9f, type: 3}
+    - {fileID: 21300000, guid: f81a370f7ccc44141875c21e1ab7591c, type: 3}
+    - {fileID: 21300000, guid: 6fe107de6a6d1f945ad8f8a557f4e331, type: 3}
+    - {fileID: 21300000, guid: 17c492f84d423cf4a9cf34d0c10761fa, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Then, the entire apparatus shifts over, making the tRNA initially in the
+      P site move to the E site, where it leaves and goes on to find another amino
+      acid and do its job at another ribosome.
+    actions: []
+    animation: 1
+    animationTime: 0.8
+    displayImages:
+    - {fileID: 21300000, guid: 93a8f529d4b688d41b1f725e25597570, type: 3}
+    - {fileID: 21300000, guid: 0f344d236bb153643b9b2b0822fc8d9f, type: 3}
+    - {fileID: 21300000, guid: f81a370f7ccc44141875c21e1ab7591c, type: 3}
+    - {fileID: 21300000, guid: 6fe107de6a6d1f945ad8f8a557f4e331, type: 3}
+    - {fileID: 21300000, guid: 17c492f84d423cf4a9cf34d0c10761fa, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: This repeated process is called elongation. Thus, the tRNA initially at
+      the A site shifts over to the P site.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 1
+    animationTime: 0.8
+    displayImages:
+    - {fileID: 21300000, guid: 93a8f529d4b688d41b1f725e25597570, type: 3}
+    - {fileID: 21300000, guid: 0f344d236bb153643b9b2b0822fc8d9f, type: 3}
+    - {fileID: 21300000, guid: f81a370f7ccc44141875c21e1ab7591c, type: 3}
+    - {fileID: 21300000, guid: 6fe107de6a6d1f945ad8f8a557f4e331, type: 3}
+    - {fileID: 21300000, guid: 17c492f84d423cf4a9cf34d0c10761fa, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Finally, when a stop codon is reached, a release factor goes into the P
+      site, and ends the chain. This is called termination.
+    actions: []
+    animation: 1
+    animationTime: 0.8
+    displayImages:
+    - {fileID: 21300000, guid: 93a8f529d4b688d41b1f725e25597570, type: 3}
+    - {fileID: 21300000, guid: 0f344d236bb153643b9b2b0822fc8d9f, type: 3}
+    - {fileID: 21300000, guid: f81a370f7ccc44141875c21e1ab7591c, type: 3}
+    - {fileID: 21300000, guid: 6fe107de6a6d1f945ad8f8a557f4e331, type: 3}
+    - {fileID: 21300000, guid: 17c492f84d423cf4a9cf34d0c10761fa, type: 3}
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Just a side note, ribosomes are located on the Endoplastic Reticulum.
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: This is important because the protein made is sent to the Golgi Apparatus
+      for futher processing.
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: There, they are sorted even further to their final destinations. This can
+      include lysosomes, the plasma membrane, or to be removed from the cell.
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: And that is the process of protein synthesis, from DNA to protein.
+    actions: []
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+    text: Thank you for visiting!
+    actions:
+    - speaker: {fileID: 11400000, guid: 376330f88ef3b53499ace7692336099a, type: 2}
+      spriteIndex: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+      actionType: 0
+    animation: 0
+    animationTime: 0
+    displayImages: []
+    italic: 0
+    blackScreenDisplay: 0
+  background: {fileID: 21300000, guid: ca05019642782764d859d3b9beb83892, type: 3}
+  nextScene: {fileID: 0}
+  perspective: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accfe818136cabb48b8d5fe90addc331, type: 3}
+  m_Name: Ribosome
+  m_EditorClassIdentifier: 
+  speakerName: Ribosome
+  textColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: 007904791d9386b4fb3a8d3219d87bbd, type: 3}
+  - {fileID: 21300000, guid: 67e277c2b9d953f4a8081bdd87a8a425, type: 3}
+  - {fileID: 21300000, guid: 652d45299f9adbb44bdfd896d40face4, type: 3}
+  - {fileID: 21300000, guid: 6d63030b281c7d844b5b2b97c4c8ac92, type: 3}
+  - {fileID: 21300000, guid: e34996da8c2df094c9872d76eb1af971, type: 3}
+  prefab: {fileID: 6126846202566760999, guid: 9f0150878f8728c46b3bcadad1d76c1c, type: 3}
